@@ -51,7 +51,7 @@ button {
 /* SECTION TWO */
 
 .section-two {
-    padding: 100px 250px;
+    padding: 100px 250px 15px 250px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,7 +75,7 @@ button {
 }
 
 .amount .item {
-    width: 100px;
+    width: 110px;
     height: 90px;
     background-color: #FAFAFA;
     color: #707070;
@@ -87,7 +87,7 @@ button {
 }
 
 #item {
-    width: 100px;
+    width: 110px;
     height: 90px;
     background-color: #FFEEEE;
     display: flex;
@@ -99,11 +99,17 @@ button {
     border-radius: 5px;
 }
 
-/* input[type=text] {
+/* SECTION THREE */
+.section-three {
+    text-align: center;
+    padding: 0 440px 100px 460px;
+}
+
+input[type=text] {
     width: 100%;
     padding: 12px 20px;
-    margin: 8px 0;
+    box-sizing: border-box;
     text-align: center;
     border: none;
-    border-bottom: 1px solid black;
-} */
+    border-bottom: 1px solid #DADADA;
+}
