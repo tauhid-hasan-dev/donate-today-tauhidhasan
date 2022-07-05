@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/donate.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.section-one-container {
+    padding: 300px;
+    text-align: center;
+}
+
+.section-one h1 {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+
+}
+
+.section-one .paragraph {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.section-one button {
+    background-color: #FF5959;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 20px;
+    font-size: 16px;
+    margin-top: 30px;
+    text-decoration: none;
+}
