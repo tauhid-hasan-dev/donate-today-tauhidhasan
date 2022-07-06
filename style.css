@@ -233,7 +233,7 @@ input[type=submit] {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 50px 0;
-    color: #46f875;
+    color: #ffffff;
     margin-bottom: 50px;
 }
 
@@ -262,7 +262,7 @@ input[type=submit] {
     margin: 15px;
     width: 300px;
     height: 150px;
-    border: 2px solid #46f875;
+    border: 2px solid #ffffff;
     border-radius: 5px;
 }
 
