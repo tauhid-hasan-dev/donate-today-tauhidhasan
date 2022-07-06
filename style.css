@@ -39,7 +39,7 @@ body {
 }
 
 button {
-    background-color: #FF5959;
+    background-color: #43ac5f;
     border: none;
     border-radius: 5px;
     color: white;
@@ -90,13 +90,13 @@ button {
 #item {
     width: 110px;
     height: 90px;
-    background-color: #FFEEEE;
+    background-color: #e0fde8;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 20px;
-    border: 2px solid #FF5959;
-    color: #FF5959;
+    border: 2px solid #49B265;
+    color: #49B265;
     border-radius: 5px;
 }
 
@@ -183,4 +183,18 @@ input[type=text] {
 
 .education h2 {
     color: #e7b01b;
+}
+
+/* SECTION FOUR */
+
+.section-six {
+    padding: 0 100px 100px 100px;
+}
+
+.updates {
+    text-align: center;
+}
+
+.updates h1 {
+    font-size: 60px;
 }
