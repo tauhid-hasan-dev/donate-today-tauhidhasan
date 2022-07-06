@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
 
 }
 
@@ -112,4 +113,74 @@ input[type=text] {
     text-align: center;
     border: none;
     border-bottom: 1px solid #DADADA;
+}
+
+/* SECTION FOUR */
+
+.section-four {
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px 100px 100px;
+}
+
+.donation-plan {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.donation-plan h1 {
+    font-size: 60px;
+}
+
+.donation-option {
+    display: flex;
+    justify-content: space-around;
+}
+
+.donation-option .option {
+    width: 340px;
+    height: 332px;
+    padding: 20px 30px 80px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.option p {
+    margin-top: 20px;
+}
+
+.option img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 50px;
+}
+
+.option h2 {
+    font-size: 30px;
+}
+
+.donation-option .food {
+    background-color: #e8fdff;
+}
+
+.food h2 {
+    color: #0f94a0;
+}
+
+
+.donation-option .shelter {
+    background-color: #feeaea;
+}
+
+.shelter h2 {
+    color: #f86161;
+}
+
+.donation-option .education {
+    background-color: #FFF4D6;
+}
+
+.education h2 {
+    color: #e7b01b;
 }
