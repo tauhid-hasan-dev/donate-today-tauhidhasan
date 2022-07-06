@@ -170,27 +170,26 @@ input[type=text] {
 
 
 .donation-option .shelter {
-    background-color: #feeaea;
+    background-color: #e0fee8;
 }
 
 .shelter h2 {
-    color: #f86161;
+    color: #49B265;
 }
 
 .donation-option .education {
-    background-color: #FFF4D6;
+    background-color: #e5e9fb;
 }
 
 .education h2 {
-    color: #e7b01b;
+    color: #6070b3;
 }
 
-/* SECTION FOUR */
+/* SECTION SIX */
 
 .section-six {
     padding: 0 300px 100px 300px;
 }
-
 
 .updates {
     text-align: center;
@@ -222,4 +221,17 @@ input[type=submit] {
     color: white;
     padding: 12px 30px;
     border-radius: 0 5px 5px 0;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: #373737;
+    color: #54d577;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
