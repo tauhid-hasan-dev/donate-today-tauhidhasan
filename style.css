@@ -223,6 +223,23 @@ input[type=submit] {
     border-radius: 0 5px 5px 0;
 }
 
+/* SECTION FIVE */
+.section-five {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/goal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    color: #54d577;
+    ;
+
+}
+
+
 /* FOOTER */
 
 footer {
